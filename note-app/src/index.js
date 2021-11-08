@@ -13,13 +13,13 @@ require('firebase/firestore');
 
 // Please Initialize Firebase
 firebase.initializeApp({
-  apiKey: "AIzaSyCg8sRa9kvsrSPnO8_oUkQLKHHKDRB-78c",
-  authDomain: "note-1612.firebaseapp.com",
-  projectId: "note-1612",
-  storageBucket: "note-1612.appspot.com",
-  messagingSenderId: "381439147644",
-  appId: "1:381439147644:web:06422cb3dee309e2ec93f9",
-  measurementId: "G-19YEBK16DP"
+  apiKey: "#",
+  authDomain: "#",
+  projectId: "#",
+  storageBucket: "#",
+  messagingSenderId: "#",
+  appId: "#",
+  measurementId: "#"
 });
 
 
