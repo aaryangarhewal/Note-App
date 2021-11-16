@@ -1,12 +1,9 @@
-# NoteApp
- 
-NoteApp -
-<ul>
-   <li>A Notes making website where a user can create and save notes.</li>
+# Note-App
+
+   <li>It is a notes making website where a user can create and save notes.</li>
    <li>Users can create new note, update their note content as well as title, switch between 
        notes, and delete their notes.</li>
-   <li>Developed Using: ReactJS, HTML, CSS, React Quill, Material-UI, Firebase.</li>
- </ul>
+   <li>Developed Using: ReactJS, HTML, CSS, React Quill, Material-UI, Firebase.
 
 # To run app on local host -
    
