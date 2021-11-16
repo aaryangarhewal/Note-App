@@ -44,7 +44,7 @@ export const Footer = () => {
   </div>
   
   <div class="footer-copyright text-center py-0">© 2021 Copyright:
-    <a className="text-center" href="#"> MyNoteApp.com </a>
+    <a className="text-center" href="https://note-1612.web.app/"> https://note-1612.web.app/ </a>
   </div>
   
 
