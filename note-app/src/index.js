@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import firebase from 'firebase/app';
+import {  BrowserRouter } from 'react-router-dom';
+//import firebase from 'firebase/app';
 import * as serviceWorker from './serviceWorker';
-//const firebase=require('firebase');
+import firebase from 'firebase';
 require('firebase/firestore');
 
 // Your web app's Firebase configuration
@@ -13,19 +14,23 @@ require('firebase/firestore');
 
 // Please Initialize Firebase
 firebase.initializeApp({
-  apiKey: "#",
-  authDomain: "#",
-  projectId: "#",
-  storageBucket: "#",
-  messagingSenderId: "#",
-  appId: "#",
-  measurementId: "#"
+  apiKey: "AIzaSyCg8sRa9kvsrSPnO8_oUkQLKHHKDRB-78c",
+  authDomain: "note-1612.firebaseapp.com",
+  projectId: "note-1612",
+  storageBucket: "note-1612.appspot.com",
+  messagingSenderId: "381439147644",
+  appId: "1:381439147644:web:06422cb3dee309e2ec93f9",
+  measurementId: "G-19YEBK16DP"
 });
 
 
 ReactDOM.render(
 
-  <App />
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
   ,
   document.getElementById('root')
 );
