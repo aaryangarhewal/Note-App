@@ -6,13 +6,14 @@ html, body {
   padding: 0;
   overflow: hidden;
 }
-#evernote-container {
+#root {
   height: 100%;
   box-sizing: border-box;
 }
 .app-container {
   height: 100%;
   box-sizing: border-box;
+  background: #ffffff;
 }
 .quill {
   height: 100%;
