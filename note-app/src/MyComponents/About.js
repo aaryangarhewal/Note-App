@@ -1,25 +1,35 @@
 import React from 'react'
+import { withStyles } from '@material-ui/core';
+import styles from './styles';
+import HeaderComponent from '../MyComponents/Header';
+import {Footer} from '../MyComponents/Footer';
 
-export const About = () => {
-    
+class AboutComponent extends React.Component{
+  render(){
     return (
-            <div class="container" >
-                <div class="row featurette d-flex justify-content-center align-item-center">
-                    <div class="content">
-
-                        <div class="super-heading">ABOUT NOTE APP</div>
-                        <h1>An extension of your brain</h1>
-                        <h4 class="description">This app is found to do work like human brains, there are three things the human brain does: it remembers the past, builds connections, and creates new ideas for the future.</h4>
-                    </div>
-                </div>
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://source.unsplash.com/user/erondu/1500x400/?Book,Technology" class="d-block w-80" alt="..."/>
-    </div>
-  </div>
-</div>
-            </div>
+      <div class="app-container">
+      <HeaderComponent/>
+      <div class="container" >
         
-    )
+          <div class="row featurette d-flex justify-content-center align-item-center">
+              <div class="content">
+
+                  <div class="super-heading">ABOUT NOTE APP</div>
+                  <h1>An extension of your brain</h1>
+                  <h4 class="description">This app is found to do work like human brains, there are three things the human brain does: it remembers the past, builds connections, and creates new ideas for the future.</h4>
+              </div>
+          </div>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="https://source.unsplash.com/user/erondu/1500x400/?Book,Technology" class="d-block w-80" alt="..."/>
+</div>
+</div>
+</div>
+      </div><Footer/></div>
+  
+)
+  }
 }
+
+export default withStyles(styles)(AboutComponent);
