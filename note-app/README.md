@@ -4,7 +4,12 @@
    <li>Users can create new note, update their note content as well as title, switch between 
        notes, and delete their notes.</li>
    <li>Developed Using: ReactJS, HTML, CSS, React Quill, Material-UI, Firebase.
-
+   
+   
+# Link for WEB-APP:
+   https://main.d33vh6mgy5jf8h.amplifyapp.com/
+   
+   
 # To run app on local host -
    
    <ul>
